@@ -71,9 +71,11 @@ node app.js -c "Doha"
 ## Construido con 🛠️
 
   <h5> Librerías NPM </h5>
-* [axios](https://www.npmjs.com/package/axios) - Cliente HTTP para navegadores y node.js basado en promesas.
+
 * [yargs](https://www.npmjs.com/package/yargs) - Ayuda a crear herramientas de línea de comandos interactivas, analizando argumentos y generando una elegante interfaz de usuario.
 * [colors](https://www.npmjs.com/package/colors) - Dar color y estilo la impresiones por consola node.js
+* [axios](https://www.npmjs.com/package/axios) - Cliente HTTP para navegadores y node.js basado en promesas.
+
 
 
 ## Autor ✒️
