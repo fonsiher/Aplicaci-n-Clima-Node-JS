@@ -48,9 +48,10 @@ Si ya lo tienes instaldo pasa al siguiente punto.</p>
 
 ## Despliegue 📦
 <ol>
-  <li>Teniendo instalado NPM  a la persona que quiera trabajar con el código traído desde un repositorio o de manera remota se descargará el código sin las librerías y dependencias del proyecto, pero las instará de forma sencilla mediante el comando de terminal «npm install»  que instalará todas las dependencias registradas en el archivo package.json</li>
+  <li>Teniendo instalado NPM  a la persona que quiera trabajar con el código traído desde un repositorio o de manera remota se descargará el código sin las librerías y dependencias del proyecto, pero las instalará de forma sencilla mediante el comando de terminal «npm install»  que instalará todas las dependencias registradas en el archivo package.json</li>
  </ol>
   <h5> El programa utiliza la librería npm yargs, que permite que el programa pueda ejecutarse en la terminal al estilo de llamados por línea de comandos de bash </h5>
+  <h5> El programa utiliza la librería npm axios, que permite extraer datos desde una API externa </h5>
   <h5>El programa dispone un parámetro a ingresar: </h5
   <ul>
       <li>--ciudad -c: Nombre de la ciudad de la cual se desea obtener el clima</li>
@@ -63,7 +64,7 @@ Si ya lo tienes instaldo pasa al siguiente punto.</p>
   </ul>
   
 ```
-node app.js  -c "Doha" 
+node app.js -c "Doha" 
 ```
 
   
