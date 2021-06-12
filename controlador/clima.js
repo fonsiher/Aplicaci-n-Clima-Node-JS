@@ -11,13 +11,11 @@ const getClima = async(ciudad) => {
         clima = respuesta.data.weather[0].main;
         clima2 = respuesta.data.weather[0].description;
         //valores = respuesta.data;
-        vectorclima = [valores.temp,clima,clima2,valores.humidity, valores.feels_like,valores.temp_max,valores.temp_min]
+        vectorclima = [valores.temp, clima, clima2, valores.humidity, valores.feels_like, valores.temp_max, valores.temp_min]
         return vectorclima;
     } catch (error) {
-       // return `La ciudad ${ciudad} ingresada no ha sido encontrada `;
-       return false;
+        // return `La ciudad ${ciudad} ingresada no ha sido encontrada `;
+        return false;
     }
-
-
 }
 module.exports = { getClima }
